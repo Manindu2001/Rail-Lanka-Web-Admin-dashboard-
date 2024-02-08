@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(4, 9, 110);
+}
+
+.nav-link-style {
+  color: rgb(255, 251, 251);
+  border-bottom: 5px solid dark;
+  font-weight: 500;
+}
+.nav-link-style:hover {
+  color: rgb(94, 130, 222);
+  transition: 0.9ms ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .nav-link-style {
+    text-align: center;
+    margin-top: 4px;
+  }
+}
